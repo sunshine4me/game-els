@@ -1,0 +1,32 @@
+{
+  "name": "game-els",
+  "version": "0.1.0",
+  "description": "using Rollup and TypeScript",
+  "main": "src/game.ts",
+  "scripts": {
+    "dev": "rollup --config rollup.config.dev.mjs",
+    "build": "rollup --config rollup.config.dist.mjs",
+    "watch": "rollup --watch --config rollup.config.dev.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunshine4me/game-els"
+  },
+  "author": "心向东 <176560744@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunshine4me/game-els/issues"
+  },
+  "homepage": "https://github.com/sunshine4me/game-els",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "phaser": "^3.60.0",
+    "rollup": "^3.20.2",
+    "rollup-plugin-serve": "^2.0.2",
+    "typescript": "^5.0.3"
+  }
+}
